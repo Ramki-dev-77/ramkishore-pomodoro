@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ramkishore-pomodoro/static/css/main.4478e89c.css",
+    "main.js": "/ramkishore-pomodoro/static/js/main.d6414fca.js",
+    "static/media/KannumKannum.mp3": "/ramkishore-pomodoro/static/media/KannumKannum.c352569f40ed7b65a6b5.mp3",
+    "static/media/Idhudhaanaa.mp3": "/ramkishore-pomodoro/static/media/Idhudhaanaa.9598dfc2c4b5d8d5c8cc.mp3",
+    "static/media/AvaEnna.mp3": "/ramkishore-pomodoro/static/media/AvaEnna.5a84cf4cbab03a19e32b.mp3",
+    "static/media/AdiyaeKolluthey.mp3": "/ramkishore-pomodoro/static/media/AdiyaeKolluthey.d764192f5ba3136edc3d.mp3",
+    "static/media/Lolita.mp3": "/ramkishore-pomodoro/static/media/Lolita.4f22c1cbc8f9147321e7.mp3",
+    "static/media/heading-tomato.svg": "/ramkishore-pomodoro/static/media/heading-tomato.feb5100ebbc73df3ceb32dd5142c23c9.svg",
+    "static/media/pause.svg": "/ramkishore-pomodoro/static/media/pause.8119bf4d394697469033516b3a0859bf.svg",
+    "index.html": "/ramkishore-pomodoro/index.html",
+    "static/media/stop.svg": "/ramkishore-pomodoro/static/media/stop.cbe0d953422786667aa49b890e6eeafb.svg",
+    "static/media/play.svg": "/ramkishore-pomodoro/static/media/play.ebe451eb08a086fbcd5e66af952bfb94.svg",
+    "main.4478e89c.css.map": "/ramkishore-pomodoro/static/css/main.4478e89c.css.map",
+    "main.d6414fca.js.map": "/ramkishore-pomodoro/static/js/main.d6414fca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4478e89c.css",
+    "static/js/main.d6414fca.js"
+  ]
+}
