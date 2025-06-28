@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ramkishore-pomodoro/static/css/main.4478e89c.css",
-    "main.js": "/ramkishore-pomodoro/static/js/main.d6414fca.js",
+    "main.js": "/ramkishore-pomodoro/static/js/main.d59ec728.js",
     "static/media/KannumKannum.mp3": "/ramkishore-pomodoro/static/media/KannumKannum.c352569f40ed7b65a6b5.mp3",
     "static/media/Idhudhaanaa.mp3": "/ramkishore-pomodoro/static/media/Idhudhaanaa.9598dfc2c4b5d8d5c8cc.mp3",
     "static/media/AvaEnna.mp3": "/ramkishore-pomodoro/static/media/AvaEnna.5a84cf4cbab03a19e32b.mp3",
@@ -13,10 +13,10 @@
     "static/media/stop.svg": "/ramkishore-pomodoro/static/media/stop.cbe0d953422786667aa49b890e6eeafb.svg",
     "static/media/play.svg": "/ramkishore-pomodoro/static/media/play.ebe451eb08a086fbcd5e66af952bfb94.svg",
     "main.4478e89c.css.map": "/ramkishore-pomodoro/static/css/main.4478e89c.css.map",
-    "main.d6414fca.js.map": "/ramkishore-pomodoro/static/js/main.d6414fca.js.map"
+    "main.d59ec728.js.map": "/ramkishore-pomodoro/static/js/main.d59ec728.js.map"
   },
   "entrypoints": [
     "static/css/main.4478e89c.css",
-    "static/js/main.d6414fca.js"
+    "static/js/main.d59ec728.js"
   ]
 }
