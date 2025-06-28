@@ -1,0 +1,194 @@
+/* Works in Chrome & Brave */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  /* border-radius: 6px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 244, 244);
+}
+.Container h1{
+    font-size: 40px;
+}
+.Container img{
+    transition: 0.5s all ease-in-out;
+}
+.Container img:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+}
+.TimerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TimerContainer h1{
+    font-size: 50px;
+}
+.TimerButtons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TimerButtons button{
+    width: fit-content;
+    border: none;
+    border-radius: 90px;
+    transition: 0.5s all ease-in-out;
+}
+.TimerButtons button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: ease-in-out;
+}
+.TimerButtons button:active{
+    opacity: 1;
+}
+.Main-Section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    padding: 10px;
+}
+.About-Container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    transition: 1s all ease-in-out; 
+    height: fit-content;
+}
+.About-Container .About-Heading{
+    text-align: center;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    background-color: rgb(21, 138, 13);
+    border-radius: 20px;
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+.About-Container .About-Content{
+    padding-right: 10px;
+    background-color: rgb(221, 51, 51);
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+}
+.About-Container:hover{
+    transition: 1s all ease-in-out;
+    transform:scale(1.05);
+}
+.Music-Container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 10px;
+    transition: 1s all ease-in-out; 
+    height: 510px;
+    margin-left: 100px;  
+}
+.Music-Container:hover{
+    transition: 1s all ease-in-out;
+    transform:scale(1.05);
+    
+}
+.Music-Container .Music-Heading{
+    text-align: center;
+    background-color: rgb(21, 138, 13);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    color: white;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+.Music-Heading button{
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: beige;
+}
+.Music-Heading button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Music-Container .Music-List{
+    overflow-y:hidden;
+    overflow-x: hidden;
+    list-style: none;
+    padding-top: 10px;
+    background-color: rgb(221, 51, 51);
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+}
+.Music-Container .Music-List:hover{
+    overflow-y: scroll;
+}
+.Music-Container li{
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Song-Container{
+    padding-left: 10px;
+    transition: 1s all ease-in-out;
+}
+.Song-Container:hover{
+    transform: scale(1.05);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+    opacity: 0.8;
+    color: black;
+}
+
+@media (max-width : 500px){
+    .Container h1{
+        font-size: 30px;
+    }
+    .Main-Section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Music-Container{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .About-Container{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .RemainderSong{
+        font-size: 15px;
+    }
+}
