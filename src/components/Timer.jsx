@@ -65,7 +65,7 @@ function Timer(props){
 
 
     useEffect(()=>{
-        if(minutes === 0 && seconds === 20){
+        if(minutes === 12 && seconds === 30){
             setMinutes(0);
             setSeconds(0);
             setStart(true);
@@ -85,7 +85,7 @@ function Timer(props){
                 setMinutes(0);
                 setStart(false);
                 setRest(false);
-            },10000);                         
+            },180000);                         
         }
     },[props.selectedMusic,seconds,minutes]);
 
